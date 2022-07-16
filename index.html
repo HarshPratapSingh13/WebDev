@@ -1,0 +1,158 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harsh fitness hub</title>
+
+<style>
+
+    body{
+color:white;
+margin:0px;
+padding:0px;
+background: url(img/bg.jpg) ;
+    }
+
+.left{
+/* border:3px solid red; */
+display:inline-block;
+position:absolute;
+top:17px;
+left:23px;
+line-height: 29px;
+    font-size: 16px;
+}
+.left img{
+padding-left:10px;
+    width:87px;
+    filter:invert(100%);
+}
+.left div{
+    text-align: center;
+}
+.mid{
+    /* border:3px solid blue; */
+display:block;
+width:600px;
+margin:10px auto;
+}
+.right{
+    /* border:3px solid green; */
+display:inline-block;
+position:absolute;
+top:10px;
+right:10px;
+}
+.navbar{
+    display:inline-block
+}
+.navbar li{
+
+    display:inline-block;
+font-size: 20px;
+}
+.navbar li a{
+    color:white;
+text-decoration: none;
+padding:20px 18px;
+
+}
+.navbar li a:hover,.navbar li a.active{
+text-decoration: underline;
+color:rgb(255, 0, 85);
+}
+.btn{
+border:1px solid white;
+background-color: black;
+color:white;
+font-size:16px;
+padding:4px 5px;
+cursor:pointer;
+margin:4px 5px;
+border-radius:4px;
+}
+.btn:hover{
+    color:red;
+}
+
+.container{
+    font-size:20px;
+border:2px solid white;
+border-radius:10px;
+display:block;
+width:35%;
+margin: 96px 100px;
+    padding: 41px 68px;
+
+}
+
+.form input{
+display:block;
+width:400px;
+border:2px solid black;
+border-radius:10px;
+font-size:15px;
+margin:6px auto;
+padding:2px;
+text-align: center;
+
+}
+.container h3{
+    text-align: center;
+
+}
+.container button{
+    display: block;
+    width:23%;
+    margin:20px auto;
+
+}
+</style>
+
+</head>
+<body>
+    <header class="header">
+ <div class="left">
+  <img src="img/log.png" alt="not available">  
+  <div>Harsh Fitness Hub</div>
+</div>
+ <div class="mid">
+    <ul class="navbar">
+        <li class="item" class="active"><a href="#">Home</a> </li>
+        <li class="item"><a href="#"> About Us</a> </li>
+        <li class="item"><a href="#">Fitness Calculator</a></li>
+        <li class="item"><a href="#">Contact Us</a></li>
+
+        
+    </ul>
+</div>
+<div class="right">
+    
+    <button class="btn">Call us </button>
+    <button class="btn">Write to us</button>
+</div>
+    </header>
+
+    <div class="container">
+        <h3>Join the best GYM of UP now!!!</h3> 
+        <form action="noaction.php" >
+<div class="form">
+    <input type="text" placeholder="Write your name">
+</div>
+<div class="form">
+    <input type="text" placeholder="Enter your Age">
+</div>
+<div class="form">
+    <input type="text" placeholder="Enter your Gender">
+</div>
+<div class="form">
+    <input type="text" placeholder="Enter your Locality">
+</div>
+<button class="btn">Submit now</button>
+
+
+        </form>
+    </div>
+</body>
+</html>
